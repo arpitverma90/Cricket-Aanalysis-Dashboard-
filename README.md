@@ -145,20 +145,20 @@ Below are snapshots of the Power BI dashboard showcasing key analytics views.
 
 ## 📁 Repository Structure
 
-```
-📦 Cricket-Analysis-Dashboard
- ┣ 📂 data
- ┃ ┣ batting_summary.csv
- ┃ ┣ bowling_summary.csv
- ┃ ┣ match_results.csv
- ┃ ┗ player_info.csv
- ┣ 📂 notebooks
- ┃ ┗ json_to_csv_transformation.ipynb
- ┣ 📂 dashborad
-   ┗ Cricket Analysis Dashboard.pbix
-   ┗ DAX-Measures-and-Calculated-Columns.xlsx
- ┗ 📄 README.md
-```
+| Path / File                                  | Type             | Description                                                                                                                 |
+| -------------------------------------------- | ---------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| `data/`                                      | Folder           | Contains cleaned and transformed CSV datasets generated from raw JSON files                                                 |
+| `data/batting_summary.csv`                   | CSV              | Ball-by-ball aggregated batting data including runs, balls faced, boundaries, strike rate, dismissals, and batting position |
+| `data/bowling_summary.csv`                   | CSV              | Bowling performance data containing overs, balls bowled, runs conceded, wickets, and economy-related attributes             |
+| `data/match_results.csv`                     | CSV              | Match-level details such as teams, match date, venue, winner, and result margin                                             |
+| `data/player_info.csv`                       | CSV              | Player metadata including team, batting style, bowling style, and playing role                                              |
+| `notebooks/`                                 | Folder           | Contains Python notebooks used for data transformation and preprocessing                                                    |
+| `notebooks/json_to_csv_transformation.ipynb` | Jupyter Notebook | Parses raw JSON files, flattens nested structures, cleans data types, and exports analysis-ready CSV files                  |
+| `dashboard/`                                 | Folder           | Contains Power BI dashboard and related analytical assets                                                                   |
+| `dashboard/Cricket Analysis Dashboard.pbix`  | Power BI File    | Interactive Power BI dashboard built on fact–dimension modeling and DAX-based measures                                      |
+| `DAX-Measures-and-Calculated-Columns.xlsx`   | Excel            | Complete documentation of all DAX measures and calculated columns, including formulas, purpose, and source tables           |
+| `README.md`                                  | Markdown         | Project documentation explaining objectives, data pipeline, data model, measures, and dashboard insights                    |
+
 
 ## 🛠️ Tools & Technologies Used
 
