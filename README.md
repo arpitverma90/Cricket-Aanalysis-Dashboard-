@@ -186,13 +186,4 @@ Below are snapshots of the Power BI dashboard showcasing key analytics views.
 * Win probability metrics
 * Advanced visuals using tooltips and drill-through pages
 
----
 
-If you want, I can also:
-
-* Write a **short README version**
-* Create a **LinkedIn caption from this**
-* Suggest **screenshot naming & layout best practices**
-* Review your PBIX visuals and improve storytelling
-
-Just tell me what you want next.
