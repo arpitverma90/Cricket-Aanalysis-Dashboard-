@@ -186,4 +186,7 @@ Below are snapshots of the Power BI dashboard showcasing key analytics views.
 * Win probability metrics
 * Advanced visuals using tooltips and drill-through pages
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> da48f3df324be4ce3cf98dccccc8559b9a8b8f74
